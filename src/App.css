@@ -1,0 +1,27 @@
+.grid-container{
+  height: 50%;
+  width: 50%;
+  padding: 20%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+      "a b"
+      "c d"
+}
+
+.cellA{
+  grid-area: a;
+}
+
+.cellB{
+  grid-area: b;
+}
+
+.cellC{
+  grid-area: c;
+}
+
+.cellD{
+  grid-area: d;
+}
